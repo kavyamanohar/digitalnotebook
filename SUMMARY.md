@@ -5,3 +5,5 @@
   * [Papers and Books](learning-materials/papers-and-books.md)
   * [Blogs](learning-materials/blogs.md)
   * [Repositories](learning-materials/repositories.md)
+* [Ideas](ideas/README.md)
+  * [Normalizer](ideas/normalizer.md)
