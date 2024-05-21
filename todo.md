@@ -12,4 +12,4 @@
 * [ ] Malayalam ASR - Normalizer - TALLIP Paper
 * [ ] RAICS presentation, demo on Colab
 * [ ] Mail Sahiinii, IIT Delhi - on the steps to be followed to build an ASR system for any low resource language
-*
+* [ ] Review Unicode ISO character list chart
