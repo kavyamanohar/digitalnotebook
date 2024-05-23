@@ -11,5 +11,8 @@
   * [ ] Advanced normalizer
 * [ ] Malayalam ASR - Normalizer - TALLIP Paper
 * [ ] RAICS presentation, demo on Colab
-* [ ] Mail Sahiinii, IIT Delhi - on the steps to be followed to build an ASR system for any low resource language
-* [ ] Review Unicode ISO character list chart
+* [x] Mail Sahiinii, IIT Delhi - on the steps to be followed to build an ASR system for any low resource language
+  * [ ] Content needs update
+* [x] Review Unicode ISO character list chart
+  * [ ] To be mailed to LITD
+*
