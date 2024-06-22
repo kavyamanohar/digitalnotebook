@@ -10,9 +10,22 @@
   * [ ] Basic normalizer
   * [ ] Advanced normalizer
 * [ ] Malayalam ASR - Normalizer - TALLIP Paper
+* [x] Normalizer - ACL- EMNLP Paper
 * [ ] RAICS presentation, demo on Colab
 * [x] Mail Sahiinii, IIT Delhi - on the steps to be followed to build an ASR system for any low resource language
   * [ ] Content needs update
 * [x] Review Unicode ISO character list chart
-  * [ ] To be mailed to LITD
+  * [x] To be mailed to LITD
+* [ ] Keyboard placement of new Malayalam characters
+  * [ ] Get inputs from Mujeeb/Jaisen
+* [ ] Script Grammar for Malayalam: To  be reviewed
+* [ ] SMC Documents
+* [ ] Inspire Faculty Fellowship
+  * [ ] Write proposal
+  * [ ] Get Recommendation Letters
+* [ ] XLSR-with LM: Gokul and Ashish Paper
+  * [ ] Prepare first draft
+  * [ ] Check plagiarism
+  * [ ] Add additional relevant information
+* [ ] Download relevant LITD20 Documents
 *
