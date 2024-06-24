@@ -16,8 +16,8 @@
   * [ ] Content needs update
 * [x] Review Unicode ISO character list chart
   * [x] To be mailed to LITD
-* [ ] Keyboard placement of new Malayalam characters
-  * [ ] Get inputs from Mujeeb/Jaisen
+* [x] Keyboard placement of new Malayalam characters
+  * [x] Get inputs from Mujeeb/Jaisen
 * [ ] Script Grammar for Malayalam: To  be reviewed
 * [ ] SMC Documents
 * [ ] Inspire Faculty Fellowship
