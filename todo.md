@@ -21,11 +21,11 @@
 * [ ] Script Grammar for Malayalam: To  be reviewed
 * [ ] SMC Documents
 * [ ] Inspire Faculty Fellowship
-  * [ ] Write proposal
+  * [x] Write proposal and submit
   * [ ] Get Recommendation Letters
 * [ ] XLSR-with LM: Gokul and Ashish Paper
   * [ ] Prepare first draft
   * [ ] Check plagiarism
   * [ ] Add additional relevant information
-* [ ] Download relevant LITD20 Documents
+* [x] Download relevant LITD20 Documents
 *
