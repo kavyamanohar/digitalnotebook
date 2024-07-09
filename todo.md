@@ -18,14 +18,19 @@
   * [x] To be mailed to LITD
 * [x] Keyboard placement of new Malayalam characters
   * [x] Get inputs from Mujeeb/Jaisen
-* [ ] Script Grammar for Malayalam: To  be reviewed
+* [x] Script Grammar for Malayalam: To  be reviewed
+  * [ ] Mail to LITD20
 * [ ] SMC Documents
 * [ ] Inspire Faculty Fellowship
   * [x] Write proposal and submit
   * [ ] Get Recommendation Letters
-* [ ] XLSR-with LM: Gokul and Ashish Paper
+* [ ] XLSR-with LM: Gokul and Ashish Paper: July 21
   * [ ] Prepare first draft
   * [ ] Check plagiarism
   * [ ] Add additional relevant information
 * [x] Download relevant LITD20 Documents
-*
+* [ ] Cleanup SMC text corpora.&#x20;
+  * [ ] Sentence Split
+  * [ ] What to do with numbers/English words?
+  * [ ] Publish in Huggingface
+* [ ] KenLM with available textcorpus and publish in HF
