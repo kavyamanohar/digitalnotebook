@@ -13,17 +13,17 @@
 * [x] Normalizer - ACL- EMNLP Paper
 * [ ] RAICS presentation, demo on Colab
 * [x] Mail Sahiinii, IIT Delhi - on the steps to be followed to build an ASR system for any low resource language
-  * [ ] Content needs update
+  * [x] Content needs update
 * [x] Review Unicode ISO character list chart
   * [x] To be mailed to LITD
 * [x] Keyboard placement of new Malayalam characters
   * [x] Get inputs from Mujeeb/Jaisen
 * [x] Script Grammar for Malayalam: To  be reviewed
-  * [ ] Mail to LITD20
+  * [x] Mail to LITD20
 * [ ] SMC Documents
-* [ ] Inspire Faculty Fellowship
+* [x] Inspire Faculty Fellowship
   * [x] Write proposal and submit
-  * [ ] Get Recommendation Letters
+  * [x] Get Recommendation Letters
 * [ ] XLSR-with LM: Gokul and Ashish Paper: July 21
   * [ ] Prepare first draft
   * [ ] Check plagiarism
@@ -33,4 +33,5 @@
   * [ ] Sentence Split
   * [ ] What to do with numbers/English words?
   * [ ] Publish in Huggingface
-* [ ] KenLM with available textcorpus and publish in HF
+* [x] KenLM with Kavya's LM train textcorpus and publish in HF
+* [ ] Add Datasets of Paula to HF, form a joint organization on HF
