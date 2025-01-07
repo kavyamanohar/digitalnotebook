@@ -1,2 +1,0 @@
-# Papers and Books
-

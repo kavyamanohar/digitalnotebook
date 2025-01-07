@@ -1,10 +1,10 @@
 # Table of contents
 
 * [Kavya's R\&D Notebook](README.md)
-* [Learning Materials](learning-materials/README.md)
-  * [Papers and Books](learning-materials/papers-and-books.md)
-  * [Blogs](learning-materials/blogs.md)
-  * [Repositories](learning-materials/repositories.md)
-* [Ideas](ideas/README.md)
-  * [Normalizer](ideas/normalizer.md)
-* [TODO](todo.md)
+* [Text Normalization](text-normalization.md)
+* [Word Embedding](word-embedding.md)
+* [ASR Evaluation and Language Type](asr-evaluation-and-language-type.md)
+
+## Group 1
+
+* [Automatic Speech Recognition](group-1/automatic-speech-recognition.md)
