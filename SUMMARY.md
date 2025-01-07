@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Kavya's Digital Notebook](README.md)
+* [Kavya's R\&D Notebook](README.md)
 * [Learning Materials](learning-materials/README.md)
   * [Papers and Books](learning-materials/papers-and-books.md)
   * [Blogs](learning-materials/blogs.md)
