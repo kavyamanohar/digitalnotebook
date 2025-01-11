@@ -1,4 +1,4 @@
-# Word Embedding
+# Word Embedding Studies
 
 ### Malayalam Word Embedding with three models
 
@@ -10,5 +10,13 @@ They have evaluated based on a test set they created for intrinsic evaluation. I
 
 Trained on Common crawl 2018, they got the best result for Fastetxt model.
 
-<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
+### Sentence BERT - L3Cube Pune
+
+{% embed url="https://arxiv.org/pdf/2304.11434" %}
+
+* Evaluation dataset is unclear.
+* Embedding Similarity and classification accuracy are the tasks for evaluation.
+
+###
