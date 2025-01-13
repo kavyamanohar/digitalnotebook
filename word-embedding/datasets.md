@@ -14,10 +14,10 @@
        ```
 2. **Indic X Paraphrase** - AI4Bharat,
    1. Contains 2k [Malayalam](https://huggingface.co/datasets/ai4bharat/IndicXParaphrase/viewer/ml) samples . Good quality adversarial paraphrases translated from English. No related documentation. Adversarial paraphrase datasets have high ngram overlap but dissimilar or even opposite meanings.
-3. L3CubePune - describes an Indic Semantic Textual Similarity Corpus created using Google Translate. Not Published as public document.&#x20;
+3. **L3CubePune** - describes an Indic Semantic Textual Similarity Corpus created using Google Translate. Not Published as public document.&#x20;
    1. Example: [https://huggingface.co/datasets/PhilipMay/stsb\_multi\_mt/viewer/en](https://huggingface.co/datasets/PhilipMay/stsb_multi_mt/viewer/en)
-4. Google Published Adversarial Paraphrase dataset in English using word scrabling, back translation and human involvement: [https://github.com/google-research-datasets/paws](https://github.com/google-research-datasets/paws)
-5. An multilingual Version of the same with 6 languages: [https://github.com/google-research-datasets/paws/tree/master/pawsx](https://github.com/google-research-datasets/paws/tree/master/pawsx)
+4. Google Published Adversarial Paraphrase dataset (**PAWS**) in English using word scrabling, back translation and human involvement: [https://github.com/google-research-datasets/paws](https://github.com/google-research-datasets/paws)
+5. An multilingual Version of the same with 6 languages: [https://github.com/google-research-datasets/paws/tree/master/pawsx](https://github.com/google-research-datasets/paws/tree/master/pawsx) (**PAWSX**)
 6. **THERE IS A NEED FOR HIGH QUALITY ADVERSERIAL PARAPHRASE DATASET.  It can be created using Mlmorph.**
    1. **Simple paraphrases with same meaning**
       1. ഇന്ത്യയുടെ തലസ്ഥാനം ന്യൂഡൽഹിയാണ
