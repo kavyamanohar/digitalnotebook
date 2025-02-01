@@ -7,7 +7,10 @@
 * Real text with punctuation and casing will be helpful to train a model, to produce transcripts in a most human readable form.&#x20;
 * If some ASR training pipelines require normalized text, the transcripts with punctuation may be removed and normalized  during the training process.
 * To get meaningful segments of text, I use [_sentencex_](https://github.com/wikimedia/sentencex) library.&#x20;
-* Since very small sentence segments are not suitable for forced alignment, I combine adjacent sentences. Each segment is at least 7 words in length.
-* All this process is automated in this python project.
+* Since very large sentence segments are not suitable for forced alignment, I combine adjacent sentences. Each segment is not more than 15 words in length.
+* All this process is automated in this python project
+* The processed text from each pdf is linked: [https://github.com/kavyamanohar/pdf-to-transcript/tree/main/data/processed/text](https://github.com/kavyamanohar/pdf-to-transcript/tree/main/data/processed/text).
 
-Source Code: [https://github.com/kavyamanohar/pdf-to-transcript](https://github.com/kavyamanohar/pdf-to-transcript)
+### Source Code
+
+&#x20;[https://github.com/kavyamanohar/pdf-to-transcript](https://github.com/kavyamanohar/pdf-to-transcript)

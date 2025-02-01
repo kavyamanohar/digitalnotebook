@@ -14,9 +14,7 @@ A better processing pipeline would be to include some additional information lik
 \
 
 
-<figure><img src="../.gitbook/assets/data-processing-pipeline.drawio.png" alt=""><figcaption><p>Data Processing Pipeline</p></figcaption></figure>
-
-
+<figure><img src="../.gitbook/assets/data-processing-pipeline.drawio (3).png" alt=""><figcaption><p>Data Processing Pipeline</p></figcaption></figure>
 
 ## Audio Slicing
 
