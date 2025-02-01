@@ -1,8 +1,10 @@
 # Audio Slicer
 
-Modernized an old project [Audio Slicer](https://github.com/kavyamanohar/audioslicer) for this task. This project facilitates easy splitting of audio files into segments based on subtitle information from `.srt` files, generating a ready-to-use audio corpus that can be uploaded to the Hugging Face Hub.
+Modernized an old project [Audio Slicer](https://github.com/kavyamanohar/audioslicer) for this task. It facilitates easy splitting of audio files into segments based on subtitle information from `.srt` files, generating a ready-to-use audio corpus that can be uploaded to the Hugging Face Hub.
 
-Source Code: [https://github.com/kavyamanohar/audioslicer/tree/master](https://github.com/kavyamanohar/audioslicer/tree/master)
+## Source Code:
+
+{% embed url="https://github.com/kavyamanohar/audioslicer" %}
 
 It has the following Dependencies:
 
