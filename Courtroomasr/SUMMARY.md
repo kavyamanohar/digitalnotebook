@@ -1,6 +1,7 @@
 # Table of contents
 
 * [Problem Definition](README.md)
+* [SUBMISSION](submission.md)
 * [Data Processing Workflow](data-processing-workflow/README.md)
   * [Text Pre-processing pipeline](data-processing-workflow/text-pre-processing-pipeline.md)
   * [Audio Pre-processing pipeline](data-processing-workflow/audio-pre-processing-pipeline.md)
