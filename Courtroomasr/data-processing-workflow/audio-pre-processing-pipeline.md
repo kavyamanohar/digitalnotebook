@@ -16,5 +16,5 @@ ffmpeg -i input.mp3 -af "highpass=f=200, anlmdn=s=2, afftdn=nf=-25,lowpass=f=300
 
 ### Silence Trimming
 
-This is implemented as an ffmpeg based silence detection (-45dB threshold of atleast 2s duration is trimmed off).  It accepts both mp3 and mp4 files  and converts them into silence trimmed mp3 files.\
+This is implemented as an ffmpeg based silence detection (-45dB threshold of atleast 1s duration is trimmed off).  It accepts both mp3 and mp4 files  and converts them into silence trimmed mp3 files.\
 \

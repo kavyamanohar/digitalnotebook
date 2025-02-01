@@ -26,12 +26,13 @@
 
 ## FUTURE DIRECTIONS
 
-1. Having small text segments is good for forced alignment, but bad for training. Consider combining adjacent small segments after forced alignment.
-2. Normalize the text transcripts before training.
-3. Drop very small duration audios from training.
-4. Evaluate the results after normalization.
-5. Use alternate ASR models, like Wav2Vec2-BER (SeamlessM4T). Having a separate language model on legal domain text should ideally improve the ASR accuracy.
-6. Introduce ASR post processing and smart suggestions based on legal LM, for human in the loop editing of ASR output.
+1. Train the ASR on full dataset.
+2. Having small text segments is good for forced alignment, but does not seem to be good for training. I am yet to confirm this. Consider combining adjacent small segments after forced alignment.
+3. Normalize the text transcripts before training.
+4. Drop very small duration audios from training.
+5. Evaluate the results after normalization.
+6. Use alternate ASR models, like Wav2Vec2-BER (SeamlessM4T). Having a separate language model on legal domain text should ideally improve the ASR accuracy.
+7. Introduce ASR post processing and smart suggestions based on legal LM, for human in the loop editing of ASR output.
 
 \
 \
