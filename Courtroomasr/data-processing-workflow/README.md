@@ -1,4 +1,4 @@
-# Data Processing Workflow
+# 🌆 Data Processing Workflow
 
 We are provided with the video (Youtube links) and audio (in mp3 format) extracted from the video.  The transcript of courtroom proceedings, prepared by [TERES](https://teres.ai/) is provided in a pdf format. The transcript has proper speaker annotation, but no timestamps.
 

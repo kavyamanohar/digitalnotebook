@@ -1,3 +1,7 @@
+---
+icon: table
+---
+
 # Text Pre-processing pipeline
 
 ### Extracting Transcripts

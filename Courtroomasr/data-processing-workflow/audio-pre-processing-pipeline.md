@@ -1,4 +1,4 @@
-# Audio Pre-processing pipeline
+# 🎤 Audio Pre-processing pipeline
 
 ## The Audio Data
 
