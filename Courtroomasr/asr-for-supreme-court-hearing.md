@@ -13,5 +13,5 @@ Used Whisper Small architecture to train the ASR model using the data created us
 
 ### Initial Results
 
-The model is expected to perform reasonably well, since it is already pretrained on English. But the WER on the validation data does not seem to converge.&#x20;
+The model is expected to perform reasonably well, since it is already pretrained on English. But the WER on the validation data does not seem to converge. It is oscillating in the rage 50-60%. Since the model did not converge well, I did not work on an extensive evaluation.
 
