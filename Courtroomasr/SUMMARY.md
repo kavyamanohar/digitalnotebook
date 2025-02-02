@@ -1,7 +1,7 @@
 # Table of contents
 
 * [Problem Definition](README.md)
-* [SUBMISSION (February 1, 2025)](submission-february-1-2025.md)
+* [SUBMISSION (February 2, 2025)](submission-february-2-2025.md)
 * [Data Processing Workflow](data-processing-workflow/README.md)
   * [Text Pre-processing pipeline](data-processing-workflow/text-pre-processing-pipeline.md)
   * [Audio Pre-processing pipeline](data-processing-workflow/audio-pre-processing-pipeline.md)
@@ -11,5 +11,5 @@
     * [Audio Slicer](data-processing-workflow/audio-slicing/audio-slicer.md)
 * [Corpus](corpus.md)
 * [ASR for Supreme Court Hearing](asr-for-supreme-court-hearing.md)
-* [INSIGHTS](insights.md)
+* [🧠 INSIGHTS](insights.md)
 * [POST SCRIPT](post-script.md)

@@ -1,4 +1,4 @@
-# INSIGHTS
+# 🧠 INSIGHTS
 
 
 
@@ -15,24 +15,33 @@
 3. The FA works better on small text segments. So made sure every text segments is <15 words.
 4. Forced alignment result was good and it generated good quality srt files.
 
-### What went wrong?
+### What could be improved?
 
-1. The validation WER seems to be oscillating (50-60% WER), indicating poor model training.
-2. This could be due to multiple reasons worth exploring:
-   1. The numbers in training data are pronounced differently in different occasions. eg: 19 as one nine or nineteen.
-   2. The brackets and punctuation (eg: period) are sometimes pronounced as such, while sometimes ignored.
+1. The audio pre-processing pipeline is computationally heavy. This `ffmpeg` based code needs optimization.
+2. The validation WER seems to be oscillating (50-60% WER), indicating poor model training. This could be due to multiple reasons worth exploring:
+   1. The numerals in training data are pronounced differently in different occasions. eg: 19 as one nine or nineteen.
+   2. The brackets and punctuation are sometimes pronounced as such  (eg: period), while sometimes ignored.
 3. Whisper allows for 30s inputs. However having a large number of speech samples of duration <5s, with lot of zero padding might have had a bad impact on training.
 4. Evaluation was performed without any normalization. This could also have affected the validation WER metric. Whisper in infamous for hallucinations, especially on very short audios.
 
 ## FUTURE DIRECTIONS
 
-1. Train the ASR on full dataset.
+1. Train the Supreme Court ASR on larger dataset.
 2. Having small text segments is good for forced alignment, but does not seem to be good for training. I am yet to confirm this. Consider combining adjacent small segments after forced alignment.
-3. Normalize the text transcripts before training.
-4. Drop very small duration audios from training.
-5. Evaluate the results after normalization.
-6. Use alternate ASR models, like Wav2Vec2-BER (SeamlessM4T). Having a separate language model on legal domain text should ideally improve the ASR accuracy.
-7. Introduce ASR post processing and smart suggestions based on legal LM, for human in the loop editing of ASR output.
+3. Experiment with other Forced Alignment toolkits for better results.
+4. Normalize the text transcripts before training.
+5. Drop very small duration audios from training.
+6. Evaluate the results after normalization.
+7. Use alternate ASR models, like Wav2Vec2-BER (SeamlessM4T). Having a separate language model on legal domain text should ideally improve the ASR accuracy.
+8. Introduce ASR post processing and smart suggestions based on legal LM, for human in the loop editing of ASR output.
+
+#### Scaling to Multilingual Contexts
+
+1. Scaling this strategy to multilingual context would be a further challenging problem.
+2. Forced alignment quality for Indic languages need further analysis.
+3. Whisper tokens for Indic languages are byte-sized, and hence the output generated one token at a time would be very slow, when compared to English ASR. Strategies for expanding the token set should be used to mitigate this. But this would require continued pretraining.
+4. Alternately wav2vec like architectures should be explored for non-English  Indian languages.
+5. Better text normalization and inverse text normalization strategies should also be explored for proper training and evaluation of Indic language ASRs.
 
 \
 \
