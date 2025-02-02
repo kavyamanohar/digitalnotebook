@@ -20,7 +20,7 @@ Currently this dataset contains a subset of the shared speech.
 
 {% embed url="https://huggingface.co/kavyamanohar/whisper-court-asr" %}
 
-This dataset is trained on a subset of the shared dataset. Trained on \~ 3hours, Tested on \~ 10 minutes.&#x20;
+This dataset is trained on a subset of the shared dataset. Trained on \~ 4 hours.&#x20;
 
 ### WHY SUBSET OF DATA WAS USED?
 
