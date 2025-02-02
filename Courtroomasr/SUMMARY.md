@@ -12,4 +12,4 @@
 * [Corpus](corpus.md)
 * [ASR for Supreme Court Hearing](asr-for-supreme-court-hearing.md)
 * [💡 INSIGHTS](insights.md)
-* [POST SCRIPT](post-script.md)
+* [✍️ POST SCRIPT](post-script.md)

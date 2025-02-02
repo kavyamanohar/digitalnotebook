@@ -11,7 +11,6 @@
 7. Very small segments (<7 words) are combined with previous segments.
 8. Since very large sentence segments are not suitable for forced alignment, I split long sentences. Each segment is not more than 15 words in length. (But this would sometimes results in 1-6 word segments)
 9. All this process is automated in this python project.
-10. The processed text from each pdf is here: [https://github.com/kavyamanohar/pdf-to-transcript/tree/main/data/processed/text](https://github.com/kavyamanohar/pdf-to-transcript/tree/main/data/processed/text).
 
 ### Source Code
 
