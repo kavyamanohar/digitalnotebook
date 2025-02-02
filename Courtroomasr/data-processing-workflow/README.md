@@ -16,11 +16,7 @@ A better processing pipeline would be to include some additional information lik
 
 <figure><img src="../.gitbook/assets/data-processing-pipeline.drawio (3).png" alt=""><figcaption><p>Data Processing Pipeline</p></figcaption></figure>
 
-## Audio Slicing
-
 The ultimate aim is to slice the audio with matching transcripts. This involves a [Forced Alignment](./#text-processing-pipeline) (FA) step where audio and transcript are aligned with time stamps. Slicing the audio can be done once you have proper time stamps.
-
-#### Audio Slicer
 
 Once you have the time stamps it can be easily converted to SRT format of subtitles. I had a  [side-project](https://github.com/kavyamanohar/audioslicer) that created audio chunks based on information from the srt files. It works out-of-the box. But modernized it with functionalities like pushing to huggingface hub. _The audio preprocessing pipeline is also part of this codebase._
 

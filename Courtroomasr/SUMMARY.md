@@ -11,5 +11,5 @@
     * [Audio Slicer](data-processing-workflow/audio-slicing/audio-slicer.md)
 * [Corpus](corpus.md)
 * [ASR for Supreme Court Hearing](asr-for-supreme-court-hearing.md)
-* [🧠 INSIGHTS](insights.md)
+* [💡 INSIGHTS](insights.md)
 * [POST SCRIPT](post-script.md)
