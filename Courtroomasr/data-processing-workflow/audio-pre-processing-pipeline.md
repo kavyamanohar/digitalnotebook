@@ -4,17 +4,21 @@
 
 The Supreme Court Hearings in this assignment contains audios of duration ranging from 10 minutes to 330 minutes. Many of them contain recording artifacts and long silences, which may be removed with voice activity detection after noise filtering. This process is automated.
 
-### Noise Filtering
+#### Conversion to mono-channel mp3
 
-The audio contains many recording artifacts, which are suppressed by noise cancellation and high pass and low pass filtering to retain only speech frequencies using ffmpeg.
+Some of the audios are in mp4 format. Audio file type is converted to mono-channel mp3 format.
 
-{% code lineNumbers="true" %}
-```bash
-ffmpeg -i input.mp3 -af "highpass=f=200, anlmdn=s=2, afftdn=nf=-25,lowpass=f=3000" test5.mp3
-```
-{% endcode %}
+#### Down-sampling
 
-### Silence Trimming
+The audio is is down sampled to 16kHz.&#x20;
 
-This is implemented as an ffmpeg based silence detection (-45dB threshold of atleast 1s duration is trimmed off).  It accepts both mp3 and mp4 files  and converts them into silence trimmed mp3 files.\
+#### Band Pass  Filtering
+
+The audio contains many recording artifacts at frequency ranges beyond the normal human speech range.
+
+So doing a band pass filtering suppresses most of the noises. \[200Hz-3000Hz]
+
+#### &#x20;Silence Detection
+
+On the down sampled mon-channel filtered speech, silence intervals are detected (-45dB threshold of atleast 1 s duration). The non-silence intervals are concatenated with a padding of 3ms.\
 \
