@@ -24,7 +24,8 @@
 1. The audio pre-processing pipeline is computationally heavy. ~~This `ffmpeg` based code needs optimization.~~  Pydub based implementation of preprocessing, made it much faster.
 2. The validation WER seems to be oscillating (50-60% WER), indicating poor model training. This could be due to multiple reasons worth exploring:
    1. The numerals in training data are pronounced differently in different occasions. eg: 19 as one nine or nineteen.
-   2. The brackets and punctuation are sometimes pronounced as such  (eg: period), while sometimes ignored.
+   2. The brackets and punctuation are sometimes pronounced as such  (eg: period, comma, fullstop), while sometimes ignored.
+   3. High WER is also due to mismatched transcript (that resulted from&#x20;
 3. Whisper allows for 30s inputs. However having a large number of speech samples of duration <5s, with lot of zero padding might have had a bad impact on training.
 4. Evaluation was performed without any normalization. This could also have affected the validation WER metric. Whisper in infamous for hallucinations, especially on very short audios.
 

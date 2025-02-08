@@ -9,7 +9,7 @@
   * [✂️ Audio Slicing](data-processing-workflow/audio-slicing/README.md)
     * [Forced Alignment](data-processing-workflow/audio-slicing/forced-alignment.md)
     * [Audio Slicer](data-processing-workflow/audio-slicing/audio-slicer.md)
-* [Corpus](corpus.md)
+* [CORPUS](corpus.md)
 * [ASR for Supreme Court Hearing](asr-for-supreme-court-hearing.md)
 * [💡 INSIGHTS](insights.md)
 * [✍️ POST SCRIPT](post-script.md)
