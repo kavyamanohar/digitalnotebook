@@ -8,7 +8,7 @@ Used Whisper Small architecture to train the ASR model using the data created us
 
 ### Rationale of Model Choice
 
-* The dataset was prepared with numbers and punctuation retained to the maximum extent possible. This was to ensure model output to be best suited for human consumption, with little additional post processing. Whisper is designed to be trained on such text.
+* The dataset was prepared with  punctuation retained to the maximum extent possible. This was to ensure model output to be best suited for human consumption, with little additional post processing. Whisper is designed to be trained on such text.
 * The second reason for the choice of Whisper was its reasonably good performance on English speech.&#x20;
 
 ### Initial Results
