@@ -45,6 +45,7 @@
 3. Whisper tokens for Indic languages are byte-sized, and hence the output generated one token at a time would be very slow, when compared to English ASR. Strategies for expanding the token set should be used to mitigate this. But this would require continued pretraining.
 4. Alternately wav2vec like architectures should be explored for non-English  Indian languages.
 5. Better text normalization and inverse text normalization strategies should also be explored for proper training and evaluation of Indic language ASRs.
+6. Post-editing of ASR output should be given a high priority as well.
 
 \
 \
